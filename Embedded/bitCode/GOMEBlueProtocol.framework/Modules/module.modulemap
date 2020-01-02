@@ -1,0 +1,6 @@
+framework module GOMEBlueProtocol {
+  umbrella header "GOMEBlueProtocol.h"
+
+  export *
+  module * { export * }
+}

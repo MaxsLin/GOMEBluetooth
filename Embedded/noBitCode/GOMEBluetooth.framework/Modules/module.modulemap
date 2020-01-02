@@ -1,0 +1,6 @@
+framework module GOMEBluetooth {
+  umbrella header "GOMEBluetooth.h"
+
+  export *
+  module * { export * }
+}

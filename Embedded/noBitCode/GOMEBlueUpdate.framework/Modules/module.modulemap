@@ -1,0 +1,11 @@
+framework module GOMEBlueUpdate {
+  umbrella header "GOMEBlueUpdate.h"
+
+  export *
+  module * { export * }
+}
+
+module GOMEBlueUpdate.Swift {
+    header "GOMEBlueUpdate-Swift.h"
+    requires objc
+}
